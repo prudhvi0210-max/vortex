@@ -1,0 +1,38 @@
+{
+    "name": "vortex",
+    "id": "vortex",
+    "author": "Prudhvi and priya",
+    "version": "1.0.0",
+    "description": "The Quantum Vortex effect appeareing as linear pixel shifts due to diluted scaling and weak rotation, not true circular motion.",
+    "dependencies": {
+        "numpy": ">=1.24.0",
+        "qiskit": ">=1.0.0",
+        "scipy": ">=1.10.0"
+    },
+    "user_input": {
+        "Radius": {
+            "type": "int",
+            "min": 0,
+            "max": 100,
+            "default": 20
+        },
+        "Strength": {
+            "type": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 0.7
+        },
+        "Invert Luminosity": {
+            "type": "bool",
+            "default": false
+        }
+    },
+    "stroke_input": {
+        "image_rgba": "array",
+        "path": "array",
+        "clicks": "array"
+    },
+    "flags": {
+        "smooth_path": true
+    }
+}

@@ -1,0 +1,1 @@
+/Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python

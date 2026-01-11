@@ -1,0 +1,603 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by processing.core.ThinkDifferent in an unnamed module (file:/Users/prudhvisagarreddybhimireddy/QuantumBrush/QuantumBrush_lib/core-4.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded effect: heisenbrush from folder: heisenbrush
+Loaded effect: vortex from folder: vortex
+Loaded effect: qdrop from folder: qdrop
+Loaded effect: heisenbrush2 from folder: heisenbrush2
+No requirements JSON files found in folder: __pycache__
+Loaded effect: steerable from folder: steerable
+Loaded effect: vortexextension from folder: vortexextension
+Loaded effect: clone from folder: clone
+Loaded effect: acrylic from folder: acrylic
+Loaded effect: illusion from folder: ilussion
+Loaded effect: GoL from folder: GoL
+Loaded effect: chemical from folder: chemical
+Using custom Python path: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python
+Loaded effect: heisenbrush from folder: heisenbrush
+Loaded effect: vortex from folder: vortex
+Loaded effect: qdrop from folder: qdrop
+Loaded effect: heisenbrush2 from folder: heisenbrush2
+No requirements JSON files found in folder: __pycache__
+Loaded effect: steerable from folder: steerable
+Loaded effect: vortexextension from folder: vortexextension
+Loaded effect: clone from folder: clone
+Loaded effect: acrylic from folder: acrylic
+Loaded effect: illusion from folder: ilussion
+Loaded effect: GoL from folder: GoL
+Loaded effect: chemical from folder: chemical
+Effect window created for: vortex
+Loaded current state from: /Users/prudhvisagarreddybhimireddy/QuantumBrush/project/project_1767995686353/current.png
+Project loaded: WhatsApp Image 2026-01-09 at 17.15.32 (2) (ID: project_1767995686353)
+Initialized project history after loading (without overwriting current.png)
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+Using Python: Python 3.11.11 (from: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python)
+Starting effect processing...
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+Saved current image state to disk: project/project_1767995686353/current.png
+Saved project state 1 (image changes only)
+Saved current state after applying effect
+Effect applied to canvas successfully! New undo state created.
+Effect window created for: vortexextension
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162323436
+Effect: vortexextension
+  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 2
+Clicks array size: 2
+Creating path 0 with click at (612.0, 348.0)
+  Added first point 1: (612.0, 348.0)
+  Created path with 1 points
+Creating path 1 with click at (180.0, 98.0)
+  Added first point 1: (180.0, 98.0)
+  Created path with 1 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162323436
+Effect: vortexextension
+  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 2
+Clicks array size: 2
+Creating path 0 with click at (612.0, 348.0)
+  Added first point 1: (612.0, 348.0)
+  Created path with 1 points
+Creating path 1 with click at (180.0, 98.0)
+  Added first point 1: (180.0, 98.0)
+  Created path with 1 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162323436
+Effect: vortexextension
+  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 2
+Clicks array size: 2
+Creating path 0 with click at (612.0, 348.0)
+  Added first point 1: (612.0, 348.0)
+  Created path with 1 points
+Creating path 1 with click at (180.0, 98.0)
+  Added first point 1: (180.0, 98.0)
+  Created path with 1 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162323436
+Effect: vortexextension
+  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 2
+Clicks array size: 2
+Creating path 0 with click at (612.0, 348.0)
+  Added first point 1: (612.0, 348.0)
+  Created path with 1 points
+Creating path 1 with click at (180.0, 98.0)
+  Added first point 1: (180.0, 98.0)
+  Created path with 1 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
+Using Python: Python 3.11.11 (from: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python)
+Starting effect processing...
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162323436
+Effect: vortexextension
+  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 2
+Clicks array size: 2
+Creating path 0 with click at (612.0, 348.0)
+  Added first point 1: (612.0, 348.0)
+  Created path with 1 points
+Creating path 1 with click at (180.0, 98.0)
+  Added first point 1: (180.0, 98.0)
+  Created path with 1 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: damping
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1768162286347
+Effect: vortex
+  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 31
+Clicks array size: 1
+Creating path 0 with click at (144.0, 108.0)
+  Added first point 1: (144.0, 108.0)
+  Added point 2: (144.0, 109.0)
+  Added point 3: (144.0, 110.0)
+  Added point 4: (144.0, 115.0)
+  Added point 5: (144.0, 124.0)
+  Added point 6: (144.0, 138.0)
+  Added point 7: (144.0, 152.0)
+  Added point 8: (144.0, 170.0)
+  Added point 9: (144.0, 186.0)
+  Added point 10: (144.0, 201.0)
+  Added point 11: (144.0, 214.0)
+  Added point 12: (144.0, 228.0)
+  Added point 13: (144.0, 243.0)
+  Added point 14: (144.0, 261.0)
+  Added point 15: (143.0, 274.0)
+  Added point 16: (142.0, 284.0)
+  Added point 17: (142.0, 292.0)
+  Added point 18: (141.0, 300.0)
+  Added point 19: (140.0, 306.0)
+  Added point 20: (138.0, 314.0)
+  Added point 21: (137.0, 321.0)
+  Added point 22: (136.0, 328.0)
+  Added point 23: (136.0, 333.0)
+  Added point 24: (135.0, 338.0)
+  Added point 25: (135.0, 340.0)
+  Added point 26: (135.0, 341.0)
+  Added point 27: (135.0, 341.0)
+  Added point 28: (135.0, 341.0)
+  Added point 29: (135.0, 341.0)
+  Added point 30: (135.0, 341.0)
+  Added point 31: (135.0, 340.0)
+  Created path with 31 points
+Total paths reconstructed: 1
+=== END LOADING PATH DATA DEBUG ===
+
