@@ -1,4 +1,4 @@
-****This project is inspired by the Quantum Brush project. The Quantum Vortex effect is an addition to the existing Quantum Brush effects. The complete Quantum Brush project is included here, with the Vortex effect added under the effects section. All utility files and dependencies required for Quantum Brush remain unchanged and are reused for this effect. The Vortex effect leverages existing utility files, which is why the full Quantum Brush file structure is included.****
+****This project builds on the Quantum Brush project by adding a new Quantum Vortex effect. The full Quantum Brush codebase is included because the Vortex effect reuses existing utilities, files, and dependencies, all of which remain unchanged. The Vortex effect is integrated alongside the existing effects within the project structure.****
 
 # Quantum Vortex
 
@@ -114,5 +114,4 @@ workflows
     twirling effects
 
 
-# vortex
-# vortex
+
