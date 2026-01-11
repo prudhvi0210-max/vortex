@@ -64,7 +64,7 @@ intensity.
   **Strength**     : Scales both the quantum entanglement and swirl
                     intensity
 
-  **Invert          Reverses the direction of the swirl
+  **Invert         : Reverses the direction of the swirl
   Luminosity**      
   -----------------------------------------------------------------------
 
