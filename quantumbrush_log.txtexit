@@ -4,7 +4,7 @@ WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers i
 WARNING: Restricted methods will be blocked in a future release unless native access is enabled
 
 Loaded effect: heisenbrush from folder: heisenbrush
-Loaded effect: vortex from folder: vortex
+Loaded effect: entangle_strokes from folder: vortex
 Loaded effect: qdrop from folder: qdrop
 Loaded effect: heisenbrush2 from folder: heisenbrush2
 No requirements JSON files found in folder: __pycache__
@@ -17,7 +17,7 @@ Loaded effect: GoL from folder: GoL
 Loaded effect: chemical from folder: chemical
 Using custom Python path: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python
 Loaded effect: heisenbrush from folder: heisenbrush
-Loaded effect: vortex from folder: vortex
+Loaded effect: entangle_strokes from folder: vortex
 Loaded effect: qdrop from folder: qdrop
 Loaded effect: heisenbrush2 from folder: heisenbrush2
 No requirements JSON files found in folder: __pycache__
@@ -28,576 +28,2325 @@ Loaded effect: acrylic from folder: acrylic
 Loaded effect: illusion from folder: ilussion
 Loaded effect: GoL from folder: GoL
 Loaded effect: chemical from folder: chemical
-Effect window created for: vortex
-Loaded current state from: /Users/prudhvisagarreddybhimireddy/QuantumBrush/project/project_1767995686353/current.png
-Project loaded: WhatsApp Image 2026-01-09 at 17.15.32 (2) (ID: project_1767995686353)
+Effect window created for: Entangle Strokes
+Loaded current state from: /Users/prudhvisagarreddybhimireddy/QuantumBrush/project/project_1769377493653/current.png
+Project loaded: WhatsApp Image 2026-01-09 at 17.15.32 (ID: project_1769377493653)
 Initialized project history after loading (without overwriting current.png)
-Effect not found: damping
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769380897393
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
+Path array size: 69
+Clicks array size: 2
+Creating path 0 with click at (211.0, 283.0)
+  Added first point 1: (211.0, 283.0)
+  Added point 2: (211.0, 283.0)
+  Added point 3: (211.0, 283.0)
+  Added point 4: (211.0, 286.0)
+  Added point 5: (211.0, 293.0)
+  Added point 6: (211.0, 304.0)
+  Added point 7: (211.0, 315.0)
+  Added point 8: (211.0, 326.0)
+  Added point 9: (211.0, 336.0)
+  Added point 10: (211.0, 345.0)
+  Added point 11: (211.0, 352.0)
+  Added point 12: (211.0, 358.0)
+  Added point 13: (211.0, 362.0)
+  Added point 14: (211.0, 366.0)
+  Added point 15: (211.0, 370.0)
+  Added point 16: (211.0, 373.0)
+  Added point 17: (211.0, 375.0)
+  Added point 18: (211.0, 376.0)
+  Added point 19: (211.0, 378.0)
+  Added point 20: (211.0, 379.0)
+  Added point 21: (211.0, 379.0)
+  Added point 22: (211.0, 380.0)
+  Added point 23: (212.0, 380.0)
+  Added point 24: (212.0, 381.0)
+  Added point 25: (212.0, 383.0)
+  Added point 26: (212.0, 384.0)
+  Added point 27: (213.0, 386.0)
+  Added point 28: (213.0, 388.0)
+  Added point 29: (213.0, 389.0)
+  Added point 30: (213.0, 390.0)
+  Added point 31: (213.0, 390.0)
+  Added point 32: (213.0, 388.0)
+  Added point 33: (213.0, 384.0)
+  Added point 34: (212.0, 381.0)
+  Created path with 34 points
+Creating path 1 with click at (363.0, 269.0)
+  Added first point 1: (363.0, 269.0)
+  Added point 2: (363.0, 270.0)
+  Added point 3: (363.0, 273.0)
+  Added point 4: (363.0, 280.0)
+  Added point 5: (363.0, 288.0)
+  Added point 6: (363.0, 298.0)
+  Added point 7: (363.0, 306.0)
+  Added point 8: (363.0, 313.0)
+  Added point 9: (363.0, 320.0)
+  Added point 10: (363.0, 324.0)
+  Added point 11: (363.0, 329.0)
+  Added point 12: (363.0, 332.0)
+  Added point 13: (363.0, 335.0)
+  Added point 14: (363.0, 340.0)
+  Added point 15: (363.0, 343.0)
+  Added point 16: (363.0, 346.0)
+  Added point 17: (363.0, 350.0)
+  Added point 18: (362.0, 354.0)
+  Added point 19: (362.0, 358.0)
+  Added point 20: (362.0, 362.0)
+  Added point 21: (362.0, 365.0)
+  Added point 22: (362.0, 368.0)
+  Added point 23: (361.0, 370.0)
+  Added point 24: (361.0, 372.0)
+  Added point 25: (361.0, 374.0)
+  Added point 26: (361.0, 375.0)
+  Added point 27: (361.0, 378.0)
+  Added point 28: (361.0, 380.0)
+  Added point 29: (361.0, 381.0)
+  Added point 30: (361.0, 383.0)
+  Added point 31: (361.0, 383.0)
+  Added point 32: (361.0, 384.0)
+  Added point 33: (361.0, 384.0)
+  Added point 34: (361.0, 384.0)
+  Added point 35: (361.0, 383.0)
+  Created path with 35 points
+Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
+Effect not found: vortex
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769381815471
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
+Path array size: 55
+Clicks array size: 2
+Creating path 0 with click at (204.0, 281.0)
+  Added first point 1: (204.0, 281.0)
+  Added point 2: (204.0, 281.0)
+  Added point 3: (204.0, 283.0)
+  Added point 4: (204.0, 286.0)
+  Added point 5: (204.0, 293.0)
+  Added point 6: (204.0, 301.0)
+  Added point 7: (204.0, 310.0)
+  Added point 8: (204.0, 321.0)
+  Added point 9: (204.0, 333.0)
+  Added point 10: (204.0, 344.0)
+  Added point 11: (204.0, 353.0)
+  Added point 12: (204.0, 359.0)
+  Added point 13: (204.0, 365.0)
+  Added point 14: (204.0, 370.0)
+  Added point 15: (204.0, 372.0)
+  Added point 16: (204.0, 372.0)
+  Added point 17: (204.0, 373.0)
+  Added point 18: (204.0, 373.0)
+  Added point 19: (204.0, 374.0)
+  Added point 20: (204.0, 376.0)
+  Added point 21: (204.0, 378.0)
+  Added point 22: (205.0, 380.0)
+  Added point 23: (205.0, 381.0)
+  Added point 24: (205.0, 382.0)
+  Added point 25: (205.0, 383.0)
+  Added point 26: (206.0, 383.0)
+  Created path with 26 points
+Creating path 1 with click at (349.0, 270.0)
+  Added first point 1: (349.0, 270.0)
+  Added point 2: (349.0, 270.0)
+  Added point 3: (349.0, 271.0)
+  Added point 4: (349.0, 272.0)
+  Added point 5: (349.0, 275.0)
+  Added point 6: (349.0, 278.0)
+  Added point 7: (349.0, 281.0)
+  Added point 8: (349.0, 284.0)
+  Added point 9: (349.0, 290.0)
+  Added point 10: (349.0, 295.0)
+  Added point 11: (349.0, 301.0)
+  Added point 12: (349.0, 308.0)
+  Added point 13: (349.0, 315.0)
+  Added point 14: (349.0, 323.0)
+  Added point 15: (349.0, 331.0)
+  Added point 16: (349.0, 339.0)
+  Added point 17: (349.0, 345.0)
+  Added point 18: (349.0, 353.0)
+  Added point 19: (349.0, 361.0)
+  Added point 20: (349.0, 368.0)
+  Added point 21: (349.0, 373.0)
+  Added point 22: (349.0, 378.0)
+  Added point 23: (349.0, 381.0)
+  Added point 24: (349.0, 382.0)
+  Added point 25: (349.0, 383.0)
+  Added point 26: (349.0, 383.0)
+  Added point 27: (349.0, 384.0)
+  Added point 28: (349.0, 384.0)
+  Added point 29: (349.0, 383.0)
+  Created path with 29 points
+Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769382347944
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
+Path array size: 68
+Clicks array size: 2
+Creating path 0 with click at (191.0, 281.0)
+  Added first point 1: (191.0, 281.0)
+  Added point 2: (191.0, 281.0)
+  Added point 3: (191.0, 282.0)
+  Added point 4: (191.0, 283.0)
+  Added point 5: (191.0, 285.0)
+  Added point 6: (191.0, 288.0)
+  Added point 7: (191.0, 292.0)
+  Added point 8: (191.0, 296.0)
+  Added point 9: (191.0, 304.0)
+  Added point 10: (191.0, 313.0)
+  Added point 11: (191.0, 321.0)
+  Added point 12: (191.0, 328.0)
+  Added point 13: (191.0, 332.0)
+  Added point 14: (191.0, 333.0)
+  Added point 15: (191.0, 334.0)
+  Added point 16: (191.0, 335.0)
+  Added point 17: (191.0, 336.0)
+  Added point 18: (191.0, 336.0)
+  Added point 19: (191.0, 336.0)
+  Added point 20: (191.0, 336.0)
+  Added point 21: (191.0, 338.0)
+  Added point 22: (191.0, 338.0)
+  Added point 23: (191.0, 340.0)
+  Added point 24: (192.0, 343.0)
+  Added point 25: (192.0, 350.0)
+  Added point 26: (192.0, 356.0)
+  Added point 27: (192.0, 362.0)
+  Added point 28: (192.0, 366.0)
+  Added point 29: (192.0, 370.0)
+  Added point 30: (192.0, 372.0)
+  Added point 31: (192.0, 372.0)
+  Added point 32: (192.0, 373.0)
+  Added point 33: (192.0, 374.0)
+  Added point 34: (192.0, 376.0)
+  Added point 35: (192.0, 379.0)
+  Added point 36: (192.0, 383.0)
+  Added point 37: (192.0, 388.0)
+  Added point 38: (192.0, 391.0)
+  Added point 39: (192.0, 393.0)
+  Added point 40: (192.0, 395.0)
+  Added point 41: (192.0, 395.0)
+  Added point 42: (192.0, 394.0)
+  Added point 43: (192.0, 393.0)
+  Created path with 43 points
+Creating path 1 with click at (333.0, 281.0)
+  Added first point 1: (333.0, 281.0)
+  Added point 2: (333.0, 281.0)
+  Added point 3: (333.0, 282.0)
+  Added point 4: (333.0, 285.0)
+  Added point 5: (333.0, 291.0)
+  Added point 6: (333.0, 296.0)
+  Added point 7: (333.0, 303.0)
+  Added point 8: (333.0, 313.0)
+  Added point 9: (333.0, 330.0)
+  Added point 10: (333.0, 348.0)
+  Added point 11: (333.0, 368.0)
+  Added point 12: (333.0, 391.0)
+  Added point 13: (333.0, 408.0)
+  Added point 14: (333.0, 416.0)
+  Added point 15: (333.0, 424.0)
+  Added point 16: (333.0, 428.0)
+  Added point 17: (333.0, 430.0)
+  Added point 18: (333.0, 431.0)
+  Added point 19: (333.0, 431.0)
+  Added point 20: (333.0, 431.0)
+  Added point 21: (333.0, 431.0)
+  Added point 22: (333.0, 430.0)
+  Added point 23: (332.0, 428.0)
+  Added point 24: (329.0, 426.0)
+  Added point 25: (327.0, 425.0)
+  Created path with 25 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380516907
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 50
+Clicks array size: 2
+Creating path 0 with click at (228.0, 293.0)
+  Added first point 1: (228.0, 293.0)
+  Added point 2: (228.0, 294.0)
+  Added point 3: (228.0, 296.0)
+  Added point 4: (228.0, 301.0)
+  Added point 5: (228.0, 306.0)
+  Added point 6: (228.0, 314.0)
+  Added point 7: (228.0, 325.0)
+  Added point 8: (228.0, 339.0)
+  Added point 9: (228.0, 351.0)
+  Added point 10: (228.0, 361.0)
+  Added point 11: (228.0, 369.0)
+  Added point 12: (228.0, 375.0)
+  Added point 13: (228.0, 379.0)
+  Added point 14: (228.0, 381.0)
+  Added point 15: (228.0, 381.0)
+  Added point 16: (229.0, 382.0)
+  Added point 17: (229.0, 381.0)
+  Added point 18: (229.0, 381.0)
+  Added point 19: (229.0, 380.0)
+  Created path with 19 points
+Creating path 1 with click at (352.0, 290.0)
+  Added first point 1: (352.0, 290.0)
+  Added point 2: (352.0, 290.0)
+  Added point 3: (352.0, 292.0)
+  Added point 4: (352.0, 295.0)
+  Added point 5: (352.0, 298.0)
+  Added point 6: (352.0, 301.0)
+  Added point 7: (352.0, 304.0)
+  Added point 8: (352.0, 309.0)
+  Added point 9: (352.0, 314.0)
+  Added point 10: (352.0, 319.0)
+  Added point 11: (352.0, 324.0)
+  Added point 12: (352.0, 331.0)
+  Added point 13: (352.0, 338.0)
+  Added point 14: (352.0, 343.0)
+  Added point 15: (353.0, 348.0)
+  Added point 16: (353.0, 351.0)
+  Added point 17: (354.0, 354.0)
+  Added point 18: (355.0, 358.0)
+  Added point 19: (355.0, 361.0)
+  Added point 20: (356.0, 364.0)
+  Added point 21: (356.0, 365.0)
+  Added point 22: (357.0, 368.0)
+  Added point 23: (357.0, 369.0)
+  Added point 24: (357.0, 370.0)
+  Added point 25: (357.0, 371.0)
+  Added point 26: (357.0, 373.0)
+  Added point 27: (357.0, 374.0)
+  Added point 28: (357.0, 375.0)
+  Added point 29: (357.0, 375.0)
+  Added point 30: (357.0, 376.0)
+  Added point 31: (357.0, 376.0)
   Created path with 31 points
-Total paths reconstructed: 1
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: vortex
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380157635
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = your (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 26
+Clicks array size: 2
+Creating path 0 with click at (222.0, 285.0)
+  Added first point 1: (222.0, 285.0)
+  Added point 2: (222.0, 286.0)
+  Added point 3: (222.0, 292.0)
+  Added point 4: (222.0, 306.0)
+  Added point 5: (222.0, 322.0)
+  Added point 6: (222.0, 334.0)
+  Added point 7: (222.0, 342.0)
+  Added point 8: (222.0, 346.0)
+  Added point 9: (222.0, 350.0)
+  Created path with 9 points
+Creating path 1 with click at (355.0, 278.0)
+  Added first point 1: (355.0, 278.0)
+  Added point 2: (354.0, 278.0)
+  Added point 3: (354.0, 278.0)
+  Added point 4: (354.0, 280.0)
+  Added point 5: (354.0, 283.0)
+  Added point 6: (354.0, 290.0)
+  Added point 7: (354.0, 296.0)
+  Added point 8: (354.0, 304.0)
+  Added point 9: (354.0, 313.0)
+  Added point 10: (354.0, 322.0)
+  Added point 11: (354.0, 330.0)
+  Added point 12: (354.0, 338.0)
+  Added point 13: (354.0, 343.0)
+  Added point 14: (354.0, 346.0)
+  Added point 15: (354.0, 348.0)
+  Added point 16: (354.0, 349.0)
+  Added point 17: (354.0, 350.0)
+  Created path with 17 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381756424
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 40
+Clicks array size: 2
+Creating path 0 with click at (195.0, 289.0)
+  Added first point 1: (195.0, 289.0)
+  Added point 2: (195.0, 289.0)
+  Added point 3: (195.0, 289.0)
+  Added point 4: (195.0, 292.0)
+  Added point 5: (195.0, 300.0)
+  Added point 6: (195.0, 310.0)
+  Added point 7: (195.0, 324.0)
+  Added point 8: (195.0, 341.0)
+  Added point 9: (195.0, 356.0)
+  Added point 10: (195.0, 371.0)
+  Added point 11: (195.0, 384.0)
+  Added point 12: (195.0, 394.0)
+  Added point 13: (195.0, 401.0)
+  Added point 14: (195.0, 406.0)
+  Added point 15: (195.0, 409.0)
+  Added point 16: (195.0, 410.0)
+  Created path with 16 points
+Creating path 1 with click at (336.0, 265.0)
+  Added first point 1: (336.0, 265.0)
+  Added point 2: (336.0, 265.0)
+  Added point 3: (336.0, 268.0)
+  Added point 4: (336.0, 271.0)
+  Added point 5: (336.0, 278.0)
+  Added point 6: (336.0, 283.0)
+  Added point 7: (336.0, 289.0)
+  Added point 8: (336.0, 294.0)
+  Added point 9: (336.0, 300.0)
+  Added point 10: (336.0, 306.0)
+  Added point 11: (336.0, 313.0)
+  Added point 12: (336.0, 322.0)
+  Added point 13: (336.0, 332.0)
+  Added point 14: (336.0, 342.0)
+  Added point 15: (336.0, 351.0)
+  Added point 16: (336.0, 360.0)
+  Added point 17: (336.0, 368.0)
+  Added point 18: (336.0, 374.0)
+  Added point 19: (336.0, 379.0)
+  Added point 20: (337.0, 383.0)
+  Added point 21: (337.0, 386.0)
+  Added point 22: (337.0, 389.0)
+  Added point 23: (338.0, 390.0)
+  Added point 24: (338.0, 390.0)
+  Created path with 24 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769379648270
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = Vortex (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 39
+Clicks array size: 2
+Creating path 0 with click at (197.0, 292.0)
+  Added first point 1: (197.0, 292.0)
+  Added point 2: (197.0, 292.0)
+  Added point 3: (197.0, 293.0)
+  Added point 4: (197.0, 299.0)
+  Added point 5: (197.0, 309.0)
+  Added point 6: (197.0, 325.0)
+  Added point 7: (197.0, 344.0)
+  Added point 8: (197.0, 361.0)
+  Added point 9: (197.0, 373.0)
+  Added point 10: (197.0, 383.0)
+  Added point 11: (197.0, 390.0)
+  Added point 12: (197.0, 392.0)
+  Added point 13: (197.0, 393.0)
+  Added point 14: (197.0, 393.0)
+  Added point 15: (196.0, 392.0)
+  Added point 16: (196.0, 391.0)
+  Created path with 16 points
+Creating path 1 with click at (353.0, 288.0)
+  Added first point 1: (353.0, 288.0)
+  Added point 2: (353.0, 289.0)
+  Added point 3: (353.0, 291.0)
+  Added point 4: (353.0, 295.0)
+  Added point 5: (353.0, 301.0)
+  Added point 6: (353.0, 308.0)
+  Added point 7: (353.0, 314.0)
+  Added point 8: (353.0, 321.0)
+  Added point 9: (353.0, 326.0)
+  Added point 10: (353.0, 332.0)
+  Added point 11: (353.0, 338.0)
+  Added point 12: (353.0, 343.0)
+  Added point 13: (352.0, 350.0)
+  Added point 14: (351.0, 358.0)
+  Added point 15: (351.0, 366.0)
+  Added point 16: (351.0, 374.0)
+  Added point 17: (351.0, 381.0)
+  Added point 18: (351.0, 386.0)
+  Added point 19: (351.0, 391.0)
+  Added point 20: (351.0, 394.0)
+  Added point 21: (352.0, 396.0)
+  Added point 22: (352.0, 399.0)
+  Added point 23: (352.0, 399.0)
+  Created path with 23 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381069699
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 61
+Clicks array size: 2
+Creating path 0 with click at (215.0, 276.0)
+  Added first point 1: (215.0, 276.0)
+  Added point 2: (215.0, 276.0)
+  Added point 3: (215.0, 278.0)
+  Added point 4: (215.0, 279.0)
+  Added point 5: (215.0, 280.0)
+  Added point 6: (215.0, 282.0)
+  Added point 7: (215.0, 284.0)
+  Added point 8: (215.0, 288.0)
+  Added point 9: (215.0, 292.0)
+  Added point 10: (215.0, 298.0)
+  Added point 11: (215.0, 305.0)
+  Added point 12: (215.0, 314.0)
+  Added point 13: (215.0, 323.0)
+  Added point 14: (215.0, 332.0)
+  Added point 15: (215.0, 339.0)
+  Added point 16: (215.0, 344.0)
+  Added point 17: (215.0, 349.0)
+  Added point 18: (215.0, 352.0)
+  Added point 19: (215.0, 356.0)
+  Added point 20: (215.0, 361.0)
+  Added point 21: (215.0, 365.0)
+  Added point 22: (215.0, 368.0)
+  Added point 23: (215.0, 370.0)
+  Added point 24: (215.0, 371.0)
+  Added point 25: (215.0, 372.0)
+  Added point 26: (216.0, 373.0)
+  Added point 27: (216.0, 373.0)
+  Added point 28: (216.0, 374.0)
+  Added point 29: (216.0, 375.0)
+  Added point 30: (216.0, 378.0)
+  Added point 31: (216.0, 379.0)
+  Added point 32: (216.0, 379.0)
+  Added point 33: (216.0, 379.0)
+  Created path with 33 points
+Creating path 1 with click at (351.0, 275.0)
+  Added first point 1: (351.0, 275.0)
+  Added point 2: (351.0, 275.0)
+  Added point 3: (351.0, 275.0)
+  Added point 4: (351.0, 275.0)
+  Added point 5: (351.0, 276.0)
+  Added point 6: (351.0, 279.0)
+  Added point 7: (351.0, 280.0)
+  Added point 8: (351.0, 282.0)
+  Added point 9: (351.0, 286.0)
+  Added point 10: (351.0, 292.0)
+  Added point 11: (351.0, 300.0)
+  Added point 12: (351.0, 312.0)
+  Added point 13: (351.0, 326.0)
+  Added point 14: (351.0, 340.0)
+  Added point 15: (351.0, 351.0)
+  Added point 16: (351.0, 361.0)
+  Added point 17: (351.0, 369.0)
+  Added point 18: (351.0, 375.0)
+  Added point 19: (351.0, 382.0)
+  Added point 20: (351.0, 390.0)
+  Added point 21: (351.0, 395.0)
+  Added point 22: (351.0, 402.0)
+  Added point 23: (351.0, 405.0)
+  Added point 24: (351.0, 409.0)
+  Added point 25: (351.0, 410.0)
+  Added point 26: (351.0, 410.0)
+  Added point 27: (351.0, 410.0)
+  Added point 28: (349.0, 409.0)
+  Created path with 28 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380897393
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 69
+Clicks array size: 2
+Creating path 0 with click at (211.0, 283.0)
+  Added first point 1: (211.0, 283.0)
+  Added point 2: (211.0, 283.0)
+  Added point 3: (211.0, 283.0)
+  Added point 4: (211.0, 286.0)
+  Added point 5: (211.0, 293.0)
+  Added point 6: (211.0, 304.0)
+  Added point 7: (211.0, 315.0)
+  Added point 8: (211.0, 326.0)
+  Added point 9: (211.0, 336.0)
+  Added point 10: (211.0, 345.0)
+  Added point 11: (211.0, 352.0)
+  Added point 12: (211.0, 358.0)
+  Added point 13: (211.0, 362.0)
+  Added point 14: (211.0, 366.0)
+  Added point 15: (211.0, 370.0)
+  Added point 16: (211.0, 373.0)
+  Added point 17: (211.0, 375.0)
+  Added point 18: (211.0, 376.0)
+  Added point 19: (211.0, 378.0)
+  Added point 20: (211.0, 379.0)
+  Added point 21: (211.0, 379.0)
+  Added point 22: (211.0, 380.0)
+  Added point 23: (212.0, 380.0)
+  Added point 24: (212.0, 381.0)
+  Added point 25: (212.0, 383.0)
+  Added point 26: (212.0, 384.0)
+  Added point 27: (213.0, 386.0)
+  Added point 28: (213.0, 388.0)
+  Added point 29: (213.0, 389.0)
+  Added point 30: (213.0, 390.0)
+  Added point 31: (213.0, 390.0)
+  Added point 32: (213.0, 388.0)
+  Added point 33: (213.0, 384.0)
+  Added point 34: (212.0, 381.0)
+  Created path with 34 points
+Creating path 1 with click at (363.0, 269.0)
+  Added first point 1: (363.0, 269.0)
+  Added point 2: (363.0, 270.0)
+  Added point 3: (363.0, 273.0)
+  Added point 4: (363.0, 280.0)
+  Added point 5: (363.0, 288.0)
+  Added point 6: (363.0, 298.0)
+  Added point 7: (363.0, 306.0)
+  Added point 8: (363.0, 313.0)
+  Added point 9: (363.0, 320.0)
+  Added point 10: (363.0, 324.0)
+  Added point 11: (363.0, 329.0)
+  Added point 12: (363.0, 332.0)
+  Added point 13: (363.0, 335.0)
+  Added point 14: (363.0, 340.0)
+  Added point 15: (363.0, 343.0)
+  Added point 16: (363.0, 346.0)
+  Added point 17: (363.0, 350.0)
+  Added point 18: (362.0, 354.0)
+  Added point 19: (362.0, 358.0)
+  Added point 20: (362.0, 362.0)
+  Added point 21: (362.0, 365.0)
+  Added point 22: (362.0, 368.0)
+  Added point 23: (361.0, 370.0)
+  Added point 24: (361.0, 372.0)
+  Added point 25: (361.0, 374.0)
+  Added point 26: (361.0, 375.0)
+  Added point 27: (361.0, 378.0)
+  Added point 28: (361.0, 380.0)
+  Added point 29: (361.0, 381.0)
+  Added point 30: (361.0, 383.0)
+  Added point 31: (361.0, 383.0)
+  Added point 32: (361.0, 384.0)
+  Added point 33: (361.0, 384.0)
+  Added point 34: (361.0, 384.0)
+  Added point 35: (361.0, 383.0)
+  Created path with 35 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: vortex
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381815471
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 55
+Clicks array size: 2
+Creating path 0 with click at (204.0, 281.0)
+  Added first point 1: (204.0, 281.0)
+  Added point 2: (204.0, 281.0)
+  Added point 3: (204.0, 283.0)
+  Added point 4: (204.0, 286.0)
+  Added point 5: (204.0, 293.0)
+  Added point 6: (204.0, 301.0)
+  Added point 7: (204.0, 310.0)
+  Added point 8: (204.0, 321.0)
+  Added point 9: (204.0, 333.0)
+  Added point 10: (204.0, 344.0)
+  Added point 11: (204.0, 353.0)
+  Added point 12: (204.0, 359.0)
+  Added point 13: (204.0, 365.0)
+  Added point 14: (204.0, 370.0)
+  Added point 15: (204.0, 372.0)
+  Added point 16: (204.0, 372.0)
+  Added point 17: (204.0, 373.0)
+  Added point 18: (204.0, 373.0)
+  Added point 19: (204.0, 374.0)
+  Added point 20: (204.0, 376.0)
+  Added point 21: (204.0, 378.0)
+  Added point 22: (205.0, 380.0)
+  Added point 23: (205.0, 381.0)
+  Added point 24: (205.0, 382.0)
+  Added point 25: (205.0, 383.0)
+  Added point 26: (206.0, 383.0)
+  Created path with 26 points
+Creating path 1 with click at (349.0, 270.0)
+  Added first point 1: (349.0, 270.0)
+  Added point 2: (349.0, 270.0)
+  Added point 3: (349.0, 271.0)
+  Added point 4: (349.0, 272.0)
+  Added point 5: (349.0, 275.0)
+  Added point 6: (349.0, 278.0)
+  Added point 7: (349.0, 281.0)
+  Added point 8: (349.0, 284.0)
+  Added point 9: (349.0, 290.0)
+  Added point 10: (349.0, 295.0)
+  Added point 11: (349.0, 301.0)
+  Added point 12: (349.0, 308.0)
+  Added point 13: (349.0, 315.0)
+  Added point 14: (349.0, 323.0)
+  Added point 15: (349.0, 331.0)
+  Added point 16: (349.0, 339.0)
+  Added point 17: (349.0, 345.0)
+  Added point 18: (349.0, 353.0)
+  Added point 19: (349.0, 361.0)
+  Added point 20: (349.0, 368.0)
+  Added point 21: (349.0, 373.0)
+  Added point 22: (349.0, 378.0)
+  Added point 23: (349.0, 381.0)
+  Added point 24: (349.0, 382.0)
+  Added point 25: (349.0, 383.0)
+  Added point 26: (349.0, 383.0)
+  Added point 27: (349.0, 384.0)
+  Added point 28: (349.0, 384.0)
+  Added point 29: (349.0, 383.0)
+  Created path with 29 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769382347944
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 68
+Clicks array size: 2
+Creating path 0 with click at (191.0, 281.0)
+  Added first point 1: (191.0, 281.0)
+  Added point 2: (191.0, 281.0)
+  Added point 3: (191.0, 282.0)
+  Added point 4: (191.0, 283.0)
+  Added point 5: (191.0, 285.0)
+  Added point 6: (191.0, 288.0)
+  Added point 7: (191.0, 292.0)
+  Added point 8: (191.0, 296.0)
+  Added point 9: (191.0, 304.0)
+  Added point 10: (191.0, 313.0)
+  Added point 11: (191.0, 321.0)
+  Added point 12: (191.0, 328.0)
+  Added point 13: (191.0, 332.0)
+  Added point 14: (191.0, 333.0)
+  Added point 15: (191.0, 334.0)
+  Added point 16: (191.0, 335.0)
+  Added point 17: (191.0, 336.0)
+  Added point 18: (191.0, 336.0)
+  Added point 19: (191.0, 336.0)
+  Added point 20: (191.0, 336.0)
+  Added point 21: (191.0, 338.0)
+  Added point 22: (191.0, 338.0)
+  Added point 23: (191.0, 340.0)
+  Added point 24: (192.0, 343.0)
+  Added point 25: (192.0, 350.0)
+  Added point 26: (192.0, 356.0)
+  Added point 27: (192.0, 362.0)
+  Added point 28: (192.0, 366.0)
+  Added point 29: (192.0, 370.0)
+  Added point 30: (192.0, 372.0)
+  Added point 31: (192.0, 372.0)
+  Added point 32: (192.0, 373.0)
+  Added point 33: (192.0, 374.0)
+  Added point 34: (192.0, 376.0)
+  Added point 35: (192.0, 379.0)
+  Added point 36: (192.0, 383.0)
+  Added point 37: (192.0, 388.0)
+  Added point 38: (192.0, 391.0)
+  Added point 39: (192.0, 393.0)
+  Added point 40: (192.0, 395.0)
+  Added point 41: (192.0, 395.0)
+  Added point 42: (192.0, 394.0)
+  Added point 43: (192.0, 393.0)
+  Created path with 43 points
+Creating path 1 with click at (333.0, 281.0)
+  Added first point 1: (333.0, 281.0)
+  Added point 2: (333.0, 281.0)
+  Added point 3: (333.0, 282.0)
+  Added point 4: (333.0, 285.0)
+  Added point 5: (333.0, 291.0)
+  Added point 6: (333.0, 296.0)
+  Added point 7: (333.0, 303.0)
+  Added point 8: (333.0, 313.0)
+  Added point 9: (333.0, 330.0)
+  Added point 10: (333.0, 348.0)
+  Added point 11: (333.0, 368.0)
+  Added point 12: (333.0, 391.0)
+  Added point 13: (333.0, 408.0)
+  Added point 14: (333.0, 416.0)
+  Added point 15: (333.0, 424.0)
+  Added point 16: (333.0, 428.0)
+  Added point 17: (333.0, 430.0)
+  Added point 18: (333.0, 431.0)
+  Added point 19: (333.0, 431.0)
+  Added point 20: (333.0, 431.0)
+  Added point 21: (333.0, 431.0)
+  Added point 22: (333.0, 430.0)
+  Added point 23: (332.0, 428.0)
+  Added point 24: (329.0, 426.0)
+  Added point 25: (327.0, 425.0)
+  Created path with 25 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380516907
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 50
+Clicks array size: 2
+Creating path 0 with click at (228.0, 293.0)
+  Added first point 1: (228.0, 293.0)
+  Added point 2: (228.0, 294.0)
+  Added point 3: (228.0, 296.0)
+  Added point 4: (228.0, 301.0)
+  Added point 5: (228.0, 306.0)
+  Added point 6: (228.0, 314.0)
+  Added point 7: (228.0, 325.0)
+  Added point 8: (228.0, 339.0)
+  Added point 9: (228.0, 351.0)
+  Added point 10: (228.0, 361.0)
+  Added point 11: (228.0, 369.0)
+  Added point 12: (228.0, 375.0)
+  Added point 13: (228.0, 379.0)
+  Added point 14: (228.0, 381.0)
+  Added point 15: (228.0, 381.0)
+  Added point 16: (229.0, 382.0)
+  Added point 17: (229.0, 381.0)
+  Added point 18: (229.0, 381.0)
+  Added point 19: (229.0, 380.0)
+  Created path with 19 points
+Creating path 1 with click at (352.0, 290.0)
+  Added first point 1: (352.0, 290.0)
+  Added point 2: (352.0, 290.0)
+  Added point 3: (352.0, 292.0)
+  Added point 4: (352.0, 295.0)
+  Added point 5: (352.0, 298.0)
+  Added point 6: (352.0, 301.0)
+  Added point 7: (352.0, 304.0)
+  Added point 8: (352.0, 309.0)
+  Added point 9: (352.0, 314.0)
+  Added point 10: (352.0, 319.0)
+  Added point 11: (352.0, 324.0)
+  Added point 12: (352.0, 331.0)
+  Added point 13: (352.0, 338.0)
+  Added point 14: (352.0, 343.0)
+  Added point 15: (353.0, 348.0)
+  Added point 16: (353.0, 351.0)
+  Added point 17: (354.0, 354.0)
+  Added point 18: (355.0, 358.0)
+  Added point 19: (355.0, 361.0)
+  Added point 20: (356.0, 364.0)
+  Added point 21: (356.0, 365.0)
+  Added point 22: (357.0, 368.0)
+  Added point 23: (357.0, 369.0)
+  Added point 24: (357.0, 370.0)
+  Added point 25: (357.0, 371.0)
+  Added point 26: (357.0, 373.0)
+  Added point 27: (357.0, 374.0)
+  Added point 28: (357.0, 375.0)
+  Added point 29: (357.0, 375.0)
+  Added point 30: (357.0, 376.0)
+  Added point 31: (357.0, 376.0)
+  Created path with 31 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: vortex
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380157635
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = your (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 26
+Clicks array size: 2
+Creating path 0 with click at (222.0, 285.0)
+  Added first point 1: (222.0, 285.0)
+  Added point 2: (222.0, 286.0)
+  Added point 3: (222.0, 292.0)
+  Added point 4: (222.0, 306.0)
+  Added point 5: (222.0, 322.0)
+  Added point 6: (222.0, 334.0)
+  Added point 7: (222.0, 342.0)
+  Added point 8: (222.0, 346.0)
+  Added point 9: (222.0, 350.0)
+  Created path with 9 points
+Creating path 1 with click at (355.0, 278.0)
+  Added first point 1: (355.0, 278.0)
+  Added point 2: (354.0, 278.0)
+  Added point 3: (354.0, 278.0)
+  Added point 4: (354.0, 280.0)
+  Added point 5: (354.0, 283.0)
+  Added point 6: (354.0, 290.0)
+  Added point 7: (354.0, 296.0)
+  Added point 8: (354.0, 304.0)
+  Added point 9: (354.0, 313.0)
+  Added point 10: (354.0, 322.0)
+  Added point 11: (354.0, 330.0)
+  Added point 12: (354.0, 338.0)
+  Added point 13: (354.0, 343.0)
+  Added point 14: (354.0, 346.0)
+  Added point 15: (354.0, 348.0)
+  Added point 16: (354.0, 349.0)
+  Added point 17: (354.0, 350.0)
+  Created path with 17 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381756424
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 40
+Clicks array size: 2
+Creating path 0 with click at (195.0, 289.0)
+  Added first point 1: (195.0, 289.0)
+  Added point 2: (195.0, 289.0)
+  Added point 3: (195.0, 289.0)
+  Added point 4: (195.0, 292.0)
+  Added point 5: (195.0, 300.0)
+  Added point 6: (195.0, 310.0)
+  Added point 7: (195.0, 324.0)
+  Added point 8: (195.0, 341.0)
+  Added point 9: (195.0, 356.0)
+  Added point 10: (195.0, 371.0)
+  Added point 11: (195.0, 384.0)
+  Added point 12: (195.0, 394.0)
+  Added point 13: (195.0, 401.0)
+  Added point 14: (195.0, 406.0)
+  Added point 15: (195.0, 409.0)
+  Added point 16: (195.0, 410.0)
+  Created path with 16 points
+Creating path 1 with click at (336.0, 265.0)
+  Added first point 1: (336.0, 265.0)
+  Added point 2: (336.0, 265.0)
+  Added point 3: (336.0, 268.0)
+  Added point 4: (336.0, 271.0)
+  Added point 5: (336.0, 278.0)
+  Added point 6: (336.0, 283.0)
+  Added point 7: (336.0, 289.0)
+  Added point 8: (336.0, 294.0)
+  Added point 9: (336.0, 300.0)
+  Added point 10: (336.0, 306.0)
+  Added point 11: (336.0, 313.0)
+  Added point 12: (336.0, 322.0)
+  Added point 13: (336.0, 332.0)
+  Added point 14: (336.0, 342.0)
+  Added point 15: (336.0, 351.0)
+  Added point 16: (336.0, 360.0)
+  Added point 17: (336.0, 368.0)
+  Added point 18: (336.0, 374.0)
+  Added point 19: (336.0, 379.0)
+  Added point 20: (337.0, 383.0)
+  Added point 21: (337.0, 386.0)
+  Added point 22: (337.0, 389.0)
+  Added point 23: (338.0, 390.0)
+  Added point 24: (338.0, 390.0)
+  Created path with 24 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769379648270
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = Vortex (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 39
+Clicks array size: 2
+Creating path 0 with click at (197.0, 292.0)
+  Added first point 1: (197.0, 292.0)
+  Added point 2: (197.0, 292.0)
+  Added point 3: (197.0, 293.0)
+  Added point 4: (197.0, 299.0)
+  Added point 5: (197.0, 309.0)
+  Added point 6: (197.0, 325.0)
+  Added point 7: (197.0, 344.0)
+  Added point 8: (197.0, 361.0)
+  Added point 9: (197.0, 373.0)
+  Added point 10: (197.0, 383.0)
+  Added point 11: (197.0, 390.0)
+  Added point 12: (197.0, 392.0)
+  Added point 13: (197.0, 393.0)
+  Added point 14: (197.0, 393.0)
+  Added point 15: (196.0, 392.0)
+  Added point 16: (196.0, 391.0)
+  Created path with 16 points
+Creating path 1 with click at (353.0, 288.0)
+  Added first point 1: (353.0, 288.0)
+  Added point 2: (353.0, 289.0)
+  Added point 3: (353.0, 291.0)
+  Added point 4: (353.0, 295.0)
+  Added point 5: (353.0, 301.0)
+  Added point 6: (353.0, 308.0)
+  Added point 7: (353.0, 314.0)
+  Added point 8: (353.0, 321.0)
+  Added point 9: (353.0, 326.0)
+  Added point 10: (353.0, 332.0)
+  Added point 11: (353.0, 338.0)
+  Added point 12: (353.0, 343.0)
+  Added point 13: (352.0, 350.0)
+  Added point 14: (351.0, 358.0)
+  Added point 15: (351.0, 366.0)
+  Added point 16: (351.0, 374.0)
+  Added point 17: (351.0, 381.0)
+  Added point 18: (351.0, 386.0)
+  Added point 19: (351.0, 391.0)
+  Added point 20: (351.0, 394.0)
+  Added point 21: (352.0, 396.0)
+  Added point 22: (352.0, 399.0)
+  Added point 23: (352.0, 399.0)
+  Created path with 23 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381069699
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 61
+Clicks array size: 2
+Creating path 0 with click at (215.0, 276.0)
+  Added first point 1: (215.0, 276.0)
+  Added point 2: (215.0, 276.0)
+  Added point 3: (215.0, 278.0)
+  Added point 4: (215.0, 279.0)
+  Added point 5: (215.0, 280.0)
+  Added point 6: (215.0, 282.0)
+  Added point 7: (215.0, 284.0)
+  Added point 8: (215.0, 288.0)
+  Added point 9: (215.0, 292.0)
+  Added point 10: (215.0, 298.0)
+  Added point 11: (215.0, 305.0)
+  Added point 12: (215.0, 314.0)
+  Added point 13: (215.0, 323.0)
+  Added point 14: (215.0, 332.0)
+  Added point 15: (215.0, 339.0)
+  Added point 16: (215.0, 344.0)
+  Added point 17: (215.0, 349.0)
+  Added point 18: (215.0, 352.0)
+  Added point 19: (215.0, 356.0)
+  Added point 20: (215.0, 361.0)
+  Added point 21: (215.0, 365.0)
+  Added point 22: (215.0, 368.0)
+  Added point 23: (215.0, 370.0)
+  Added point 24: (215.0, 371.0)
+  Added point 25: (215.0, 372.0)
+  Added point 26: (216.0, 373.0)
+  Added point 27: (216.0, 373.0)
+  Added point 28: (216.0, 374.0)
+  Added point 29: (216.0, 375.0)
+  Added point 30: (216.0, 378.0)
+  Added point 31: (216.0, 379.0)
+  Added point 32: (216.0, 379.0)
+  Added point 33: (216.0, 379.0)
+  Created path with 33 points
+Creating path 1 with click at (351.0, 275.0)
+  Added first point 1: (351.0, 275.0)
+  Added point 2: (351.0, 275.0)
+  Added point 3: (351.0, 275.0)
+  Added point 4: (351.0, 275.0)
+  Added point 5: (351.0, 276.0)
+  Added point 6: (351.0, 279.0)
+  Added point 7: (351.0, 280.0)
+  Added point 8: (351.0, 282.0)
+  Added point 9: (351.0, 286.0)
+  Added point 10: (351.0, 292.0)
+  Added point 11: (351.0, 300.0)
+  Added point 12: (351.0, 312.0)
+  Added point 13: (351.0, 326.0)
+  Added point 14: (351.0, 340.0)
+  Added point 15: (351.0, 351.0)
+  Added point 16: (351.0, 361.0)
+  Added point 17: (351.0, 369.0)
+  Added point 18: (351.0, 375.0)
+  Added point 19: (351.0, 382.0)
+  Added point 20: (351.0, 390.0)
+  Added point 21: (351.0, 395.0)
+  Added point 22: (351.0, 402.0)
+  Added point 23: (351.0, 405.0)
+  Added point 24: (351.0, 409.0)
+  Added point 25: (351.0, 410.0)
+  Added point 26: (351.0, 410.0)
+  Added point 27: (351.0, 410.0)
+  Added point 28: (349.0, 409.0)
+  Created path with 28 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380897393
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 69
+Clicks array size: 2
+Creating path 0 with click at (211.0, 283.0)
+  Added first point 1: (211.0, 283.0)
+  Added point 2: (211.0, 283.0)
+  Added point 3: (211.0, 283.0)
+  Added point 4: (211.0, 286.0)
+  Added point 5: (211.0, 293.0)
+  Added point 6: (211.0, 304.0)
+  Added point 7: (211.0, 315.0)
+  Added point 8: (211.0, 326.0)
+  Added point 9: (211.0, 336.0)
+  Added point 10: (211.0, 345.0)
+  Added point 11: (211.0, 352.0)
+  Added point 12: (211.0, 358.0)
+  Added point 13: (211.0, 362.0)
+  Added point 14: (211.0, 366.0)
+  Added point 15: (211.0, 370.0)
+  Added point 16: (211.0, 373.0)
+  Added point 17: (211.0, 375.0)
+  Added point 18: (211.0, 376.0)
+  Added point 19: (211.0, 378.0)
+  Added point 20: (211.0, 379.0)
+  Added point 21: (211.0, 379.0)
+  Added point 22: (211.0, 380.0)
+  Added point 23: (212.0, 380.0)
+  Added point 24: (212.0, 381.0)
+  Added point 25: (212.0, 383.0)
+  Added point 26: (212.0, 384.0)
+  Added point 27: (213.0, 386.0)
+  Added point 28: (213.0, 388.0)
+  Added point 29: (213.0, 389.0)
+  Added point 30: (213.0, 390.0)
+  Added point 31: (213.0, 390.0)
+  Added point 32: (213.0, 388.0)
+  Added point 33: (213.0, 384.0)
+  Added point 34: (212.0, 381.0)
+  Created path with 34 points
+Creating path 1 with click at (363.0, 269.0)
+  Added first point 1: (363.0, 269.0)
+  Added point 2: (363.0, 270.0)
+  Added point 3: (363.0, 273.0)
+  Added point 4: (363.0, 280.0)
+  Added point 5: (363.0, 288.0)
+  Added point 6: (363.0, 298.0)
+  Added point 7: (363.0, 306.0)
+  Added point 8: (363.0, 313.0)
+  Added point 9: (363.0, 320.0)
+  Added point 10: (363.0, 324.0)
+  Added point 11: (363.0, 329.0)
+  Added point 12: (363.0, 332.0)
+  Added point 13: (363.0, 335.0)
+  Added point 14: (363.0, 340.0)
+  Added point 15: (363.0, 343.0)
+  Added point 16: (363.0, 346.0)
+  Added point 17: (363.0, 350.0)
+  Added point 18: (362.0, 354.0)
+  Added point 19: (362.0, 358.0)
+  Added point 20: (362.0, 362.0)
+  Added point 21: (362.0, 365.0)
+  Added point 22: (362.0, 368.0)
+  Added point 23: (361.0, 370.0)
+  Added point 24: (361.0, 372.0)
+  Added point 25: (361.0, 374.0)
+  Added point 26: (361.0, 375.0)
+  Added point 27: (361.0, 378.0)
+  Added point 28: (361.0, 380.0)
+  Added point 29: (361.0, 381.0)
+  Added point 30: (361.0, 383.0)
+  Added point 31: (361.0, 383.0)
+  Added point 32: (361.0, 384.0)
+  Added point 33: (361.0, 384.0)
+  Added point 34: (361.0, 384.0)
+  Added point 35: (361.0, 383.0)
+  Created path with 35 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: vortex
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381815471
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 55
+Clicks array size: 2
+Creating path 0 with click at (204.0, 281.0)
+  Added first point 1: (204.0, 281.0)
+  Added point 2: (204.0, 281.0)
+  Added point 3: (204.0, 283.0)
+  Added point 4: (204.0, 286.0)
+  Added point 5: (204.0, 293.0)
+  Added point 6: (204.0, 301.0)
+  Added point 7: (204.0, 310.0)
+  Added point 8: (204.0, 321.0)
+  Added point 9: (204.0, 333.0)
+  Added point 10: (204.0, 344.0)
+  Added point 11: (204.0, 353.0)
+  Added point 12: (204.0, 359.0)
+  Added point 13: (204.0, 365.0)
+  Added point 14: (204.0, 370.0)
+  Added point 15: (204.0, 372.0)
+  Added point 16: (204.0, 372.0)
+  Added point 17: (204.0, 373.0)
+  Added point 18: (204.0, 373.0)
+  Added point 19: (204.0, 374.0)
+  Added point 20: (204.0, 376.0)
+  Added point 21: (204.0, 378.0)
+  Added point 22: (205.0, 380.0)
+  Added point 23: (205.0, 381.0)
+  Added point 24: (205.0, 382.0)
+  Added point 25: (205.0, 383.0)
+  Added point 26: (206.0, 383.0)
+  Created path with 26 points
+Creating path 1 with click at (349.0, 270.0)
+  Added first point 1: (349.0, 270.0)
+  Added point 2: (349.0, 270.0)
+  Added point 3: (349.0, 271.0)
+  Added point 4: (349.0, 272.0)
+  Added point 5: (349.0, 275.0)
+  Added point 6: (349.0, 278.0)
+  Added point 7: (349.0, 281.0)
+  Added point 8: (349.0, 284.0)
+  Added point 9: (349.0, 290.0)
+  Added point 10: (349.0, 295.0)
+  Added point 11: (349.0, 301.0)
+  Added point 12: (349.0, 308.0)
+  Added point 13: (349.0, 315.0)
+  Added point 14: (349.0, 323.0)
+  Added point 15: (349.0, 331.0)
+  Added point 16: (349.0, 339.0)
+  Added point 17: (349.0, 345.0)
+  Added point 18: (349.0, 353.0)
+  Added point 19: (349.0, 361.0)
+  Added point 20: (349.0, 368.0)
+  Added point 21: (349.0, 373.0)
+  Added point 22: (349.0, 378.0)
+  Added point 23: (349.0, 381.0)
+  Added point 24: (349.0, 382.0)
+  Added point 25: (349.0, 383.0)
+  Added point 26: (349.0, 383.0)
+  Added point 27: (349.0, 384.0)
+  Added point 28: (349.0, 384.0)
+  Added point 29: (349.0, 383.0)
+  Created path with 29 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769382347944
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 68
+Clicks array size: 2
+Creating path 0 with click at (191.0, 281.0)
+  Added first point 1: (191.0, 281.0)
+  Added point 2: (191.0, 281.0)
+  Added point 3: (191.0, 282.0)
+  Added point 4: (191.0, 283.0)
+  Added point 5: (191.0, 285.0)
+  Added point 6: (191.0, 288.0)
+  Added point 7: (191.0, 292.0)
+  Added point 8: (191.0, 296.0)
+  Added point 9: (191.0, 304.0)
+  Added point 10: (191.0, 313.0)
+  Added point 11: (191.0, 321.0)
+  Added point 12: (191.0, 328.0)
+  Added point 13: (191.0, 332.0)
+  Added point 14: (191.0, 333.0)
+  Added point 15: (191.0, 334.0)
+  Added point 16: (191.0, 335.0)
+  Added point 17: (191.0, 336.0)
+  Added point 18: (191.0, 336.0)
+  Added point 19: (191.0, 336.0)
+  Added point 20: (191.0, 336.0)
+  Added point 21: (191.0, 338.0)
+  Added point 22: (191.0, 338.0)
+  Added point 23: (191.0, 340.0)
+  Added point 24: (192.0, 343.0)
+  Added point 25: (192.0, 350.0)
+  Added point 26: (192.0, 356.0)
+  Added point 27: (192.0, 362.0)
+  Added point 28: (192.0, 366.0)
+  Added point 29: (192.0, 370.0)
+  Added point 30: (192.0, 372.0)
+  Added point 31: (192.0, 372.0)
+  Added point 32: (192.0, 373.0)
+  Added point 33: (192.0, 374.0)
+  Added point 34: (192.0, 376.0)
+  Added point 35: (192.0, 379.0)
+  Added point 36: (192.0, 383.0)
+  Added point 37: (192.0, 388.0)
+  Added point 38: (192.0, 391.0)
+  Added point 39: (192.0, 393.0)
+  Added point 40: (192.0, 395.0)
+  Added point 41: (192.0, 395.0)
+  Added point 42: (192.0, 394.0)
+  Added point 43: (192.0, 393.0)
+  Created path with 43 points
+Creating path 1 with click at (333.0, 281.0)
+  Added first point 1: (333.0, 281.0)
+  Added point 2: (333.0, 281.0)
+  Added point 3: (333.0, 282.0)
+  Added point 4: (333.0, 285.0)
+  Added point 5: (333.0, 291.0)
+  Added point 6: (333.0, 296.0)
+  Added point 7: (333.0, 303.0)
+  Added point 8: (333.0, 313.0)
+  Added point 9: (333.0, 330.0)
+  Added point 10: (333.0, 348.0)
+  Added point 11: (333.0, 368.0)
+  Added point 12: (333.0, 391.0)
+  Added point 13: (333.0, 408.0)
+  Added point 14: (333.0, 416.0)
+  Added point 15: (333.0, 424.0)
+  Added point 16: (333.0, 428.0)
+  Added point 17: (333.0, 430.0)
+  Added point 18: (333.0, 431.0)
+  Added point 19: (333.0, 431.0)
+  Added point 20: (333.0, 431.0)
+  Added point 21: (333.0, 431.0)
+  Added point 22: (333.0, 430.0)
+  Added point 23: (332.0, 428.0)
+  Added point 24: (329.0, 426.0)
+  Added point 25: (327.0, 425.0)
+  Created path with 25 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380516907
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 50
+Clicks array size: 2
+Creating path 0 with click at (228.0, 293.0)
+  Added first point 1: (228.0, 293.0)
+  Added point 2: (228.0, 294.0)
+  Added point 3: (228.0, 296.0)
+  Added point 4: (228.0, 301.0)
+  Added point 5: (228.0, 306.0)
+  Added point 6: (228.0, 314.0)
+  Added point 7: (228.0, 325.0)
+  Added point 8: (228.0, 339.0)
+  Added point 9: (228.0, 351.0)
+  Added point 10: (228.0, 361.0)
+  Added point 11: (228.0, 369.0)
+  Added point 12: (228.0, 375.0)
+  Added point 13: (228.0, 379.0)
+  Added point 14: (228.0, 381.0)
+  Added point 15: (228.0, 381.0)
+  Added point 16: (229.0, 382.0)
+  Added point 17: (229.0, 381.0)
+  Added point 18: (229.0, 381.0)
+  Added point 19: (229.0, 380.0)
+  Created path with 19 points
+Creating path 1 with click at (352.0, 290.0)
+  Added first point 1: (352.0, 290.0)
+  Added point 2: (352.0, 290.0)
+  Added point 3: (352.0, 292.0)
+  Added point 4: (352.0, 295.0)
+  Added point 5: (352.0, 298.0)
+  Added point 6: (352.0, 301.0)
+  Added point 7: (352.0, 304.0)
+  Added point 8: (352.0, 309.0)
+  Added point 9: (352.0, 314.0)
+  Added point 10: (352.0, 319.0)
+  Added point 11: (352.0, 324.0)
+  Added point 12: (352.0, 331.0)
+  Added point 13: (352.0, 338.0)
+  Added point 14: (352.0, 343.0)
+  Added point 15: (353.0, 348.0)
+  Added point 16: (353.0, 351.0)
+  Added point 17: (354.0, 354.0)
+  Added point 18: (355.0, 358.0)
+  Added point 19: (355.0, 361.0)
+  Added point 20: (356.0, 364.0)
+  Added point 21: (356.0, 365.0)
+  Added point 22: (357.0, 368.0)
+  Added point 23: (357.0, 369.0)
+  Added point 24: (357.0, 370.0)
+  Added point 25: (357.0, 371.0)
+  Added point 26: (357.0, 373.0)
+  Added point 27: (357.0, 374.0)
+  Added point 28: (357.0, 375.0)
+  Added point 29: (357.0, 375.0)
+  Added point 30: (357.0, 376.0)
+  Added point 31: (357.0, 376.0)
+  Created path with 31 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+Effect not found: vortex
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769380157635
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = your (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 26
+Clicks array size: 2
+Creating path 0 with click at (222.0, 285.0)
+  Added first point 1: (222.0, 285.0)
+  Added point 2: (222.0, 286.0)
+  Added point 3: (222.0, 292.0)
+  Added point 4: (222.0, 306.0)
+  Added point 5: (222.0, 322.0)
+  Added point 6: (222.0, 334.0)
+  Added point 7: (222.0, 342.0)
+  Added point 8: (222.0, 346.0)
+  Added point 9: (222.0, 350.0)
+  Created path with 9 points
+Creating path 1 with click at (355.0, 278.0)
+  Added first point 1: (355.0, 278.0)
+  Added point 2: (354.0, 278.0)
+  Added point 3: (354.0, 278.0)
+  Added point 4: (354.0, 280.0)
+  Added point 5: (354.0, 283.0)
+  Added point 6: (354.0, 290.0)
+  Added point 7: (354.0, 296.0)
+  Added point 8: (354.0, 304.0)
+  Added point 9: (354.0, 313.0)
+  Added point 10: (354.0, 322.0)
+  Added point 11: (354.0, 330.0)
+  Added point 12: (354.0, 338.0)
+  Added point 13: (354.0, 343.0)
+  Added point 14: (354.0, 346.0)
+  Added point 15: (354.0, 348.0)
+  Added point 16: (354.0, 349.0)
+  Added point 17: (354.0, 350.0)
+  Created path with 17 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381756424
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 40
+Clicks array size: 2
+Creating path 0 with click at (195.0, 289.0)
+  Added first point 1: (195.0, 289.0)
+  Added point 2: (195.0, 289.0)
+  Added point 3: (195.0, 289.0)
+  Added point 4: (195.0, 292.0)
+  Added point 5: (195.0, 300.0)
+  Added point 6: (195.0, 310.0)
+  Added point 7: (195.0, 324.0)
+  Added point 8: (195.0, 341.0)
+  Added point 9: (195.0, 356.0)
+  Added point 10: (195.0, 371.0)
+  Added point 11: (195.0, 384.0)
+  Added point 12: (195.0, 394.0)
+  Added point 13: (195.0, 401.0)
+  Added point 14: (195.0, 406.0)
+  Added point 15: (195.0, 409.0)
+  Added point 16: (195.0, 410.0)
+  Created path with 16 points
+Creating path 1 with click at (336.0, 265.0)
+  Added first point 1: (336.0, 265.0)
+  Added point 2: (336.0, 265.0)
+  Added point 3: (336.0, 268.0)
+  Added point 4: (336.0, 271.0)
+  Added point 5: (336.0, 278.0)
+  Added point 6: (336.0, 283.0)
+  Added point 7: (336.0, 289.0)
+  Added point 8: (336.0, 294.0)
+  Added point 9: (336.0, 300.0)
+  Added point 10: (336.0, 306.0)
+  Added point 11: (336.0, 313.0)
+  Added point 12: (336.0, 322.0)
+  Added point 13: (336.0, 332.0)
+  Added point 14: (336.0, 342.0)
+  Added point 15: (336.0, 351.0)
+  Added point 16: (336.0, 360.0)
+  Added point 17: (336.0, 368.0)
+  Added point 18: (336.0, 374.0)
+  Added point 19: (336.0, 379.0)
+  Added point 20: (337.0, 383.0)
+  Added point 21: (337.0, 386.0)
+  Added point 22: (337.0, 389.0)
+  Added point 23: (338.0, 390.0)
+  Added point 24: (338.0, 390.0)
+  Created path with 24 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769379648270
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = Vortex (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 39
+Clicks array size: 2
+Creating path 0 with click at (197.0, 292.0)
+  Added first point 1: (197.0, 292.0)
+  Added point 2: (197.0, 292.0)
+  Added point 3: (197.0, 293.0)
+  Added point 4: (197.0, 299.0)
+  Added point 5: (197.0, 309.0)
+  Added point 6: (197.0, 325.0)
+  Added point 7: (197.0, 344.0)
+  Added point 8: (197.0, 361.0)
+  Added point 9: (197.0, 373.0)
+  Added point 10: (197.0, 383.0)
+  Added point 11: (197.0, 390.0)
+  Added point 12: (197.0, 392.0)
+  Added point 13: (197.0, 393.0)
+  Added point 14: (197.0, 393.0)
+  Added point 15: (196.0, 392.0)
+  Added point 16: (196.0, 391.0)
+  Created path with 16 points
+Creating path 1 with click at (353.0, 288.0)
+  Added first point 1: (353.0, 288.0)
+  Added point 2: (353.0, 289.0)
+  Added point 3: (353.0, 291.0)
+  Added point 4: (353.0, 295.0)
+  Added point 5: (353.0, 301.0)
+  Added point 6: (353.0, 308.0)
+  Added point 7: (353.0, 314.0)
+  Added point 8: (353.0, 321.0)
+  Added point 9: (353.0, 326.0)
+  Added point 10: (353.0, 332.0)
+  Added point 11: (353.0, 338.0)
+  Added point 12: (353.0, 343.0)
+  Added point 13: (352.0, 350.0)
+  Added point 14: (351.0, 358.0)
+  Added point 15: (351.0, 366.0)
+  Added point 16: (351.0, 374.0)
+  Added point 17: (351.0, 381.0)
+  Added point 18: (351.0, 386.0)
+  Added point 19: (351.0, 391.0)
+  Added point 20: (351.0, 394.0)
+  Added point 21: (352.0, 396.0)
+  Added point 22: (352.0, 399.0)
+  Added point 23: (352.0, 399.0)
+  Created path with 23 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381069699
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 61
+Clicks array size: 2
+Creating path 0 with click at (215.0, 276.0)
+  Added first point 1: (215.0, 276.0)
+  Added point 2: (215.0, 276.0)
+  Added point 3: (215.0, 278.0)
+  Added point 4: (215.0, 279.0)
+  Added point 5: (215.0, 280.0)
+  Added point 6: (215.0, 282.0)
+  Added point 7: (215.0, 284.0)
+  Added point 8: (215.0, 288.0)
+  Added point 9: (215.0, 292.0)
+  Added point 10: (215.0, 298.0)
+  Added point 11: (215.0, 305.0)
+  Added point 12: (215.0, 314.0)
+  Added point 13: (215.0, 323.0)
+  Added point 14: (215.0, 332.0)
+  Added point 15: (215.0, 339.0)
+  Added point 16: (215.0, 344.0)
+  Added point 17: (215.0, 349.0)
+  Added point 18: (215.0, 352.0)
+  Added point 19: (215.0, 356.0)
+  Added point 20: (215.0, 361.0)
+  Added point 21: (215.0, 365.0)
+  Added point 22: (215.0, 368.0)
+  Added point 23: (215.0, 370.0)
+  Added point 24: (215.0, 371.0)
+  Added point 25: (215.0, 372.0)
+  Added point 26: (216.0, 373.0)
+  Added point 27: (216.0, 373.0)
+  Added point 28: (216.0, 374.0)
+  Added point 29: (216.0, 375.0)
+  Added point 30: (216.0, 378.0)
+  Added point 31: (216.0, 379.0)
+  Added point 32: (216.0, 379.0)
+  Added point 33: (216.0, 379.0)
+  Created path with 33 points
+Creating path 1 with click at (351.0, 275.0)
+  Added first point 1: (351.0, 275.0)
+  Added point 2: (351.0, 275.0)
+  Added point 3: (351.0, 275.0)
+  Added point 4: (351.0, 275.0)
+  Added point 5: (351.0, 276.0)
+  Added point 6: (351.0, 279.0)
+  Added point 7: (351.0, 280.0)
+  Added point 8: (351.0, 282.0)
+  Added point 9: (351.0, 286.0)
+  Added point 10: (351.0, 292.0)
+  Added point 11: (351.0, 300.0)
+  Added point 12: (351.0, 312.0)
+  Added point 13: (351.0, 326.0)
+  Added point 14: (351.0, 340.0)
+  Added point 15: (351.0, 351.0)
+  Added point 16: (351.0, 361.0)
+  Added point 17: (351.0, 369.0)
+  Added point 18: (351.0, 375.0)
+  Added point 19: (351.0, 382.0)
+  Added point 20: (351.0, 390.0)
+  Added point 21: (351.0, 395.0)
+  Added point 22: (351.0, 402.0)
+  Added point 23: (351.0, 405.0)
+  Added point 24: (351.0, 409.0)
+  Added point 25: (351.0, 410.0)
+  Added point 26: (351.0, 410.0)
+  Added point 27: (351.0, 410.0)
+  Added point 28: (349.0, 409.0)
+  Created path with 28 points
+Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
 Using Python: Python 3.11.11 (from: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python)
 Starting effect processing...
-Effect not found: damping
+Python script execution failed with exit code: 1
+Effect success flag: false
+Output file exists: false
+Python error log:
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769380897393
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
-=== END LOADING PATH DATA DEBUG ===
-
-Saved current image state to disk: project/project_1767995686353/current.png
-Saved project state 1 (image changes only)
-Saved current state after applying effect
-Effect applied to canvas successfully! New undo state created.
-Effect window created for: vortexextension
-
-=== LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162323436
-Effect: vortexextension
-  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
-=== END LOADING PARAMETERS DEBUG ===
-
-
-=== LOADING PATH DATA DEBUG ===
-Path array size: 2
+Path array size: 69
 Clicks array size: 2
-Creating path 0 with click at (612.0, 348.0)
-  Added first point 1: (612.0, 348.0)
-  Created path with 1 points
-Creating path 1 with click at (180.0, 98.0)
-  Added first point 1: (180.0, 98.0)
-  Created path with 1 points
+Creating path 0 with click at (211.0, 283.0)
+  Added first point 1: (211.0, 283.0)
+  Added point 2: (211.0, 283.0)
+  Added point 3: (211.0, 283.0)
+  Added point 4: (211.0, 286.0)
+  Added point 5: (211.0, 293.0)
+  Added point 6: (211.0, 304.0)
+  Added point 7: (211.0, 315.0)
+  Added point 8: (211.0, 326.0)
+  Added point 9: (211.0, 336.0)
+  Added point 10: (211.0, 345.0)
+  Added point 11: (211.0, 352.0)
+  Added point 12: (211.0, 358.0)
+  Added point 13: (211.0, 362.0)
+  Added point 14: (211.0, 366.0)
+  Added point 15: (211.0, 370.0)
+  Added point 16: (211.0, 373.0)
+  Added point 17: (211.0, 375.0)
+  Added point 18: (211.0, 376.0)
+  Added point 19: (211.0, 378.0)
+  Added point 20: (211.0, 379.0)
+  Added point 21: (211.0, 379.0)
+  Added point 22: (211.0, 380.0)
+  Added point 23: (212.0, 380.0)
+  Added point 24: (212.0, 381.0)
+  Added point 25: (212.0, 383.0)
+  Added point 26: (212.0, 384.0)
+  Added point 27: (213.0, 386.0)
+  Added point 28: (213.0, 388.0)
+  Added point 29: (213.0, 389.0)
+  Added point 30: (213.0, 390.0)
+  Added point 31: (213.0, 390.0)
+  Added point 32: (213.0, 388.0)
+  Added point 33: (213.0, 384.0)
+  Added point 34: (212.0, 381.0)
+  Created path with 34 points
+Creating path 1 with click at (363.0, 269.0)
+  Added first point 1: (363.0, 269.0)
+  Added point 2: (363.0, 270.0)
+  Added point 3: (363.0, 273.0)
+  Added point 4: (363.0, 280.0)
+  Added point 5: (363.0, 288.0)
+  Added point 6: (363.0, 298.0)
+  Added point 7: (363.0, 306.0)
+  Added point 8: (363.0, 313.0)
+  Added point 9: (363.0, 320.0)
+  Added point 10: (363.0, 324.0)
+  Added point 11: (363.0, 329.0)
+  Added point 12: (363.0, 332.0)
+  Added point 13: (363.0, 335.0)
+  Added point 14: (363.0, 340.0)
+  Added point 15: (363.0, 343.0)
+  Added point 16: (363.0, 346.0)
+  Added point 17: (363.0, 350.0)
+  Added point 18: (362.0, 354.0)
+  Added point 19: (362.0, 358.0)
+  Added point 20: (362.0, 362.0)
+  Added point 21: (362.0, 365.0)
+  Added point 22: (362.0, 368.0)
+  Added point 23: (361.0, 370.0)
+  Added point 24: (361.0, 372.0)
+  Added point 25: (361.0, 374.0)
+  Added point 26: (361.0, 375.0)
+  Added point 27: (361.0, 378.0)
+  Added point 28: (361.0, 380.0)
+  Added point 29: (361.0, 381.0)
+  Added point 30: (361.0, 383.0)
+  Added point 31: (361.0, 383.0)
+  Added point 32: (361.0, 384.0)
+  Added point 33: (361.0, 384.0)
+  Added point 34: (361.0, 384.0)
+  Added point 35: (361.0, 383.0)
+  Created path with 35 points
 Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
+Effect not found: vortex
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769381815471
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
-=== END LOADING PATH DATA DEBUG ===
-
-
-=== LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162323436
-Effect: vortexextension
-  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
-=== END LOADING PARAMETERS DEBUG ===
-
-
-=== LOADING PATH DATA DEBUG ===
-Path array size: 2
+Path array size: 55
 Clicks array size: 2
-Creating path 0 with click at (612.0, 348.0)
-  Added first point 1: (612.0, 348.0)
-  Created path with 1 points
-Creating path 1 with click at (180.0, 98.0)
-  Added first point 1: (180.0, 98.0)
-  Created path with 1 points
+Creating path 0 with click at (204.0, 281.0)
+  Added first point 1: (204.0, 281.0)
+  Added point 2: (204.0, 281.0)
+  Added point 3: (204.0, 283.0)
+  Added point 4: (204.0, 286.0)
+  Added point 5: (204.0, 293.0)
+  Added point 6: (204.0, 301.0)
+  Added point 7: (204.0, 310.0)
+  Added point 8: (204.0, 321.0)
+  Added point 9: (204.0, 333.0)
+  Added point 10: (204.0, 344.0)
+  Added point 11: (204.0, 353.0)
+  Added point 12: (204.0, 359.0)
+  Added point 13: (204.0, 365.0)
+  Added point 14: (204.0, 370.0)
+  Added point 15: (204.0, 372.0)
+  Added point 16: (204.0, 372.0)
+  Added point 17: (204.0, 373.0)
+  Added point 18: (204.0, 373.0)
+  Added point 19: (204.0, 374.0)
+  Added point 20: (204.0, 376.0)
+  Added point 21: (204.0, 378.0)
+  Added point 22: (205.0, 380.0)
+  Added point 23: (205.0, 381.0)
+  Added point 24: (205.0, 382.0)
+  Added point 25: (205.0, 383.0)
+  Added point 26: (206.0, 383.0)
+  Created path with 26 points
+Creating path 1 with click at (349.0, 270.0)
+  Added first point 1: (349.0, 270.0)
+  Added point 2: (349.0, 270.0)
+  Added point 3: (349.0, 271.0)
+  Added point 4: (349.0, 272.0)
+  Added point 5: (349.0, 275.0)
+  Added point 6: (349.0, 278.0)
+  Added point 7: (349.0, 281.0)
+  Added point 8: (349.0, 284.0)
+  Added point 9: (349.0, 290.0)
+  Added point 10: (349.0, 295.0)
+  Added point 11: (349.0, 301.0)
+  Added point 12: (349.0, 308.0)
+  Added point 13: (349.0, 315.0)
+  Added point 14: (349.0, 323.0)
+  Added point 15: (349.0, 331.0)
+  Added point 16: (349.0, 339.0)
+  Added point 17: (349.0, 345.0)
+  Added point 18: (349.0, 353.0)
+  Added point 19: (349.0, 361.0)
+  Added point 20: (349.0, 368.0)
+  Added point 21: (349.0, 373.0)
+  Added point 22: (349.0, 378.0)
+  Added point 23: (349.0, 381.0)
+  Added point 24: (349.0, 382.0)
+  Added point 25: (349.0, 383.0)
+  Added point 26: (349.0, 383.0)
+  Added point 27: (349.0, 384.0)
+  Added point 28: (349.0, 384.0)
+  Added point 29: (349.0, 383.0)
+  Created path with 29 points
 Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769382347944
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
-=== END LOADING PATH DATA DEBUG ===
-
-
-=== LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162323436
-Effect: vortexextension
-  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
-=== END LOADING PARAMETERS DEBUG ===
-
-
-=== LOADING PATH DATA DEBUG ===
-Path array size: 2
+Path array size: 68
 Clicks array size: 2
-Creating path 0 with click at (612.0, 348.0)
-  Added first point 1: (612.0, 348.0)
-  Created path with 1 points
-Creating path 1 with click at (180.0, 98.0)
-  Added first point 1: (180.0, 98.0)
-  Created path with 1 points
+Creating path 0 with click at (191.0, 281.0)
+  Added first point 1: (191.0, 281.0)
+  Added point 2: (191.0, 281.0)
+  Added point 3: (191.0, 282.0)
+  Added point 4: (191.0, 283.0)
+  Added point 5: (191.0, 285.0)
+  Added point 6: (191.0, 288.0)
+  Added point 7: (191.0, 292.0)
+  Added point 8: (191.0, 296.0)
+  Added point 9: (191.0, 304.0)
+  Added point 10: (191.0, 313.0)
+  Added point 11: (191.0, 321.0)
+  Added point 12: (191.0, 328.0)
+  Added point 13: (191.0, 332.0)
+  Added point 14: (191.0, 333.0)
+  Added point 15: (191.0, 334.0)
+  Added point 16: (191.0, 335.0)
+  Added point 17: (191.0, 336.0)
+  Added point 18: (191.0, 336.0)
+  Added point 19: (191.0, 336.0)
+  Added point 20: (191.0, 336.0)
+  Added point 21: (191.0, 338.0)
+  Added point 22: (191.0, 338.0)
+  Added point 23: (191.0, 340.0)
+  Added point 24: (192.0, 343.0)
+  Added point 25: (192.0, 350.0)
+  Added point 26: (192.0, 356.0)
+  Added point 27: (192.0, 362.0)
+  Added point 28: (192.0, 366.0)
+  Added point 29: (192.0, 370.0)
+  Added point 30: (192.0, 372.0)
+  Added point 31: (192.0, 372.0)
+  Added point 32: (192.0, 373.0)
+  Added point 33: (192.0, 374.0)
+  Added point 34: (192.0, 376.0)
+  Added point 35: (192.0, 379.0)
+  Added point 36: (192.0, 383.0)
+  Added point 37: (192.0, 388.0)
+  Added point 38: (192.0, 391.0)
+  Added point 39: (192.0, 393.0)
+  Added point 40: (192.0, 395.0)
+  Added point 41: (192.0, 395.0)
+  Added point 42: (192.0, 394.0)
+  Added point 43: (192.0, 393.0)
+  Created path with 43 points
+Creating path 1 with click at (333.0, 281.0)
+  Added first point 1: (333.0, 281.0)
+  Added point 2: (333.0, 281.0)
+  Added point 3: (333.0, 282.0)
+  Added point 4: (333.0, 285.0)
+  Added point 5: (333.0, 291.0)
+  Added point 6: (333.0, 296.0)
+  Added point 7: (333.0, 303.0)
+  Added point 8: (333.0, 313.0)
+  Added point 9: (333.0, 330.0)
+  Added point 10: (333.0, 348.0)
+  Added point 11: (333.0, 368.0)
+  Added point 12: (333.0, 391.0)
+  Added point 13: (333.0, 408.0)
+  Added point 14: (333.0, 416.0)
+  Added point 15: (333.0, 424.0)
+  Added point 16: (333.0, 428.0)
+  Added point 17: (333.0, 430.0)
+  Added point 18: (333.0, 431.0)
+  Added point 19: (333.0, 431.0)
+  Added point 20: (333.0, 431.0)
+  Added point 21: (333.0, 431.0)
+  Added point 22: (333.0, 430.0)
+  Added point 23: (332.0, 428.0)
+  Added point 24: (329.0, 426.0)
+  Added point 25: (327.0, 425.0)
+  Created path with 25 points
 Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769380516907
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
-=== END LOADING PATH DATA DEBUG ===
-
-
-=== LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162323436
-Effect: vortexextension
-  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
-=== END LOADING PARAMETERS DEBUG ===
-
-
-=== LOADING PATH DATA DEBUG ===
-Path array size: 2
+Path array size: 50
 Clicks array size: 2
-Creating path 0 with click at (612.0, 348.0)
-  Added first point 1: (612.0, 348.0)
-  Created path with 1 points
-Creating path 1 with click at (180.0, 98.0)
-  Added first point 1: (180.0, 98.0)
-  Created path with 1 points
+Creating path 0 with click at (228.0, 293.0)
+  Added first point 1: (228.0, 293.0)
+  Added point 2: (228.0, 294.0)
+  Added point 3: (228.0, 296.0)
+  Added point 4: (228.0, 301.0)
+  Added point 5: (228.0, 306.0)
+  Added point 6: (228.0, 314.0)
+  Added point 7: (228.0, 325.0)
+  Added point 8: (228.0, 339.0)
+  Added point 9: (228.0, 351.0)
+  Added point 10: (228.0, 361.0)
+  Added point 11: (228.0, 369.0)
+  Added point 12: (228.0, 375.0)
+  Added point 13: (228.0, 379.0)
+  Added point 14: (228.0, 381.0)
+  Added point 15: (228.0, 381.0)
+  Added point 16: (229.0, 382.0)
+  Added point 17: (229.0, 381.0)
+  Added point 18: (229.0, 381.0)
+  Added point 19: (229.0, 380.0)
+  Created path with 19 points
+Creating path 1 with click at (352.0, 290.0)
+  Added first point 1: (352.0, 290.0)
+  Added point 2: (352.0, 290.0)
+  Added point 3: (352.0, 292.0)
+  Added point 4: (352.0, 295.0)
+  Added point 5: (352.0, 298.0)
+  Added point 6: (352.0, 301.0)
+  Added point 7: (352.0, 304.0)
+  Added point 8: (352.0, 309.0)
+  Added point 9: (352.0, 314.0)
+  Added point 10: (352.0, 319.0)
+  Added point 11: (352.0, 324.0)
+  Added point 12: (352.0, 331.0)
+  Added point 13: (352.0, 338.0)
+  Added point 14: (352.0, 343.0)
+  Added point 15: (353.0, 348.0)
+  Added point 16: (353.0, 351.0)
+  Added point 17: (354.0, 354.0)
+  Added point 18: (355.0, 358.0)
+  Added point 19: (355.0, 361.0)
+  Added point 20: (356.0, 364.0)
+  Added point 21: (356.0, 365.0)
+  Added point 22: (357.0, 368.0)
+  Added point 23: (357.0, 369.0)
+  Added point 24: (357.0, 370.0)
+  Added point 25: (357.0, 371.0)
+  Added point 26: (357.0, 373.0)
+  Added point 27: (357.0, 374.0)
+  Added point 28: (357.0, 375.0)
+  Added point 29: (357.0, 375.0)
+  Added point 30: (357.0, 376.0)
+  Added point 31: (357.0, 376.0)
+  Created path with 31 points
 Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
+Effect not found: vortex
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769380157635
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = your (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
-=== END LOADING PATH DATA DEBUG ===
-
-Using Python: Python 3.11.11 (from: /Users/prudhvisagarreddybhimireddy/miniconda3/envs/quantumbrush/bin/python)
-Starting effect processing...
-
-=== LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162323436
-Effect: vortexextension
-  Loaded parameter: Radius = 20 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
-=== END LOADING PARAMETERS DEBUG ===
-
-
-=== LOADING PATH DATA DEBUG ===
-Path array size: 2
+Path array size: 26
 Clicks array size: 2
-Creating path 0 with click at (612.0, 348.0)
-  Added first point 1: (612.0, 348.0)
-  Created path with 1 points
-Creating path 1 with click at (180.0, 98.0)
-  Added first point 1: (180.0, 98.0)
-  Created path with 1 points
+Creating path 0 with click at (222.0, 285.0)
+  Added first point 1: (222.0, 285.0)
+  Added point 2: (222.0, 286.0)
+  Added point 3: (222.0, 292.0)
+  Added point 4: (222.0, 306.0)
+  Added point 5: (222.0, 322.0)
+  Added point 6: (222.0, 334.0)
+  Added point 7: (222.0, 342.0)
+  Added point 8: (222.0, 346.0)
+  Added point 9: (222.0, 350.0)
+  Created path with 9 points
+Creating path 1 with click at (355.0, 278.0)
+  Added first point 1: (355.0, 278.0)
+  Added point 2: (354.0, 278.0)
+  Added point 3: (354.0, 278.0)
+  Added point 4: (354.0, 280.0)
+  Added point 5: (354.0, 283.0)
+  Added point 6: (354.0, 290.0)
+  Added point 7: (354.0, 296.0)
+  Added point 8: (354.0, 304.0)
+  Added point 9: (354.0, 313.0)
+  Added point 10: (354.0, 322.0)
+  Added point 11: (354.0, 330.0)
+  Added point 12: (354.0, 338.0)
+  Added point 13: (354.0, 343.0)
+  Added point 14: (354.0, 346.0)
+  Added point 15: (354.0, 348.0)
+  Added point 16: (354.0, 349.0)
+  Added point 17: (354.0, 350.0)
+  Created path with 17 points
 Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 
-Effect not found: damping
 
 === LOADING STROKE PARAMETERS DEBUG ===
-Loading stroke: stroke_1768162286347
-Effect: vortex
-  Loaded parameter: Radius = 29 (JSON type: Integer, converted to: Integer)
-  Loaded parameter: Invert Luminosity = false (JSON type: Boolean, converted to: Boolean)
-  Loaded parameter: Strength = 0.7 (JSON type: Double, converted to: Float)
+Loading stroke: stroke_1769381756424
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID =  (JSON type: String, converted to: String)
 === END LOADING PARAMETERS DEBUG ===
 
 
 === LOADING PATH DATA DEBUG ===
-Path array size: 31
-Clicks array size: 1
-Creating path 0 with click at (144.0, 108.0)
-  Added first point 1: (144.0, 108.0)
-  Added point 2: (144.0, 109.0)
-  Added point 3: (144.0, 110.0)
-  Added point 4: (144.0, 115.0)
-  Added point 5: (144.0, 124.0)
-  Added point 6: (144.0, 138.0)
-  Added point 7: (144.0, 152.0)
-  Added point 8: (144.0, 170.0)
-  Added point 9: (144.0, 186.0)
-  Added point 10: (144.0, 201.0)
-  Added point 11: (144.0, 214.0)
-  Added point 12: (144.0, 228.0)
-  Added point 13: (144.0, 243.0)
-  Added point 14: (144.0, 261.0)
-  Added point 15: (143.0, 274.0)
-  Added point 16: (142.0, 284.0)
-  Added point 17: (142.0, 292.0)
-  Added point 18: (141.0, 300.0)
-  Added point 19: (140.0, 306.0)
-  Added point 20: (138.0, 314.0)
-  Added point 21: (137.0, 321.0)
-  Added point 22: (136.0, 328.0)
-  Added point 23: (136.0, 333.0)
-  Added point 24: (135.0, 338.0)
-  Added point 25: (135.0, 340.0)
-  Added point 26: (135.0, 341.0)
-  Added point 27: (135.0, 341.0)
-  Added point 28: (135.0, 341.0)
-  Added point 29: (135.0, 341.0)
-  Added point 30: (135.0, 341.0)
-  Added point 31: (135.0, 340.0)
-  Created path with 31 points
-Total paths reconstructed: 1
+Path array size: 40
+Clicks array size: 2
+Creating path 0 with click at (195.0, 289.0)
+  Added first point 1: (195.0, 289.0)
+  Added point 2: (195.0, 289.0)
+  Added point 3: (195.0, 289.0)
+  Added point 4: (195.0, 292.0)
+  Added point 5: (195.0, 300.0)
+  Added point 6: (195.0, 310.0)
+  Added point 7: (195.0, 324.0)
+  Added point 8: (195.0, 341.0)
+  Added point 9: (195.0, 356.0)
+  Added point 10: (195.0, 371.0)
+  Added point 11: (195.0, 384.0)
+  Added point 12: (195.0, 394.0)
+  Added point 13: (195.0, 401.0)
+  Added point 14: (195.0, 406.0)
+  Added point 15: (195.0, 409.0)
+  Added point 16: (195.0, 410.0)
+  Created path with 16 points
+Creating path 1 with click at (336.0, 265.0)
+  Added first point 1: (336.0, 265.0)
+  Added point 2: (336.0, 265.0)
+  Added point 3: (336.0, 268.0)
+  Added point 4: (336.0, 271.0)
+  Added point 5: (336.0, 278.0)
+  Added point 6: (336.0, 283.0)
+  Added point 7: (336.0, 289.0)
+  Added point 8: (336.0, 294.0)
+  Added point 9: (336.0, 300.0)
+  Added point 10: (336.0, 306.0)
+  Added point 11: (336.0, 313.0)
+  Added point 12: (336.0, 322.0)
+  Added point 13: (336.0, 332.0)
+  Added point 14: (336.0, 342.0)
+  Added point 15: (336.0, 351.0)
+  Added point 16: (336.0, 360.0)
+  Added point 17: (336.0, 368.0)
+  Added point 18: (336.0, 374.0)
+  Added point 19: (336.0, 379.0)
+  Added point 20: (337.0, 383.0)
+  Added point 21: (337.0, 386.0)
+  Added point 22: (337.0, 389.0)
+  Added point 23: (338.0, 390.0)
+  Added point 24: (338.0, 390.0)
+  Created path with 24 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769379648270
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = Vortex (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 39
+Clicks array size: 2
+Creating path 0 with click at (197.0, 292.0)
+  Added first point 1: (197.0, 292.0)
+  Added point 2: (197.0, 292.0)
+  Added point 3: (197.0, 293.0)
+  Added point 4: (197.0, 299.0)
+  Added point 5: (197.0, 309.0)
+  Added point 6: (197.0, 325.0)
+  Added point 7: (197.0, 344.0)
+  Added point 8: (197.0, 361.0)
+  Added point 9: (197.0, 373.0)
+  Added point 10: (197.0, 383.0)
+  Added point 11: (197.0, 390.0)
+  Added point 12: (197.0, 392.0)
+  Added point 13: (197.0, 393.0)
+  Added point 14: (197.0, 393.0)
+  Added point 15: (196.0, 392.0)
+  Added point 16: (196.0, 391.0)
+  Created path with 16 points
+Creating path 1 with click at (353.0, 288.0)
+  Added first point 1: (353.0, 288.0)
+  Added point 2: (353.0, 289.0)
+  Added point 3: (353.0, 291.0)
+  Added point 4: (353.0, 295.0)
+  Added point 5: (353.0, 301.0)
+  Added point 6: (353.0, 308.0)
+  Added point 7: (353.0, 314.0)
+  Added point 8: (353.0, 321.0)
+  Added point 9: (353.0, 326.0)
+  Added point 10: (353.0, 332.0)
+  Added point 11: (353.0, 338.0)
+  Added point 12: (353.0, 343.0)
+  Added point 13: (352.0, 350.0)
+  Added point 14: (351.0, 358.0)
+  Added point 15: (351.0, 366.0)
+  Added point 16: (351.0, 374.0)
+  Added point 17: (351.0, 381.0)
+  Added point 18: (351.0, 386.0)
+  Added point 19: (351.0, 391.0)
+  Added point 20: (351.0, 394.0)
+  Added point 21: (352.0, 396.0)
+  Added point 22: (352.0, 399.0)
+  Added point 23: (352.0, 399.0)
+  Created path with 23 points
+Total paths reconstructed: 2
+=== END LOADING PATH DATA DEBUG ===
+
+
+=== LOADING STROKE PARAMETERS DEBUG ===
+Loading stroke: stroke_1769381069699
+Effect: Entangle Strokes
+  Loaded parameter: Radius = 25 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SoftEdges = true (JSON type: Boolean, converted to: Boolean)
+  Loaded parameter: Shots = 1024 (JSON type: Integer, converted to: Integer)
+  Loaded parameter: SourceStrokeID = None (JSON type: String, converted to: String)
+=== END LOADING PARAMETERS DEBUG ===
+
+
+=== LOADING PATH DATA DEBUG ===
+Path array size: 61
+Clicks array size: 2
+Creating path 0 with click at (215.0, 276.0)
+  Added first point 1: (215.0, 276.0)
+  Added point 2: (215.0, 276.0)
+  Added point 3: (215.0, 278.0)
+  Added point 4: (215.0, 279.0)
+  Added point 5: (215.0, 280.0)
+  Added point 6: (215.0, 282.0)
+  Added point 7: (215.0, 284.0)
+  Added point 8: (215.0, 288.0)
+  Added point 9: (215.0, 292.0)
+  Added point 10: (215.0, 298.0)
+  Added point 11: (215.0, 305.0)
+  Added point 12: (215.0, 314.0)
+  Added point 13: (215.0, 323.0)
+  Added point 14: (215.0, 332.0)
+  Added point 15: (215.0, 339.0)
+  Added point 16: (215.0, 344.0)
+  Added point 17: (215.0, 349.0)
+  Added point 18: (215.0, 352.0)
+  Added point 19: (215.0, 356.0)
+  Added point 20: (215.0, 361.0)
+  Added point 21: (215.0, 365.0)
+  Added point 22: (215.0, 368.0)
+  Added point 23: (215.0, 370.0)
+  Added point 24: (215.0, 371.0)
+  Added point 25: (215.0, 372.0)
+  Added point 26: (216.0, 373.0)
+  Added point 27: (216.0, 373.0)
+  Added point 28: (216.0, 374.0)
+  Added point 29: (216.0, 375.0)
+  Added point 30: (216.0, 378.0)
+  Added point 31: (216.0, 379.0)
+  Added point 32: (216.0, 379.0)
+  Added point 33: (216.0, 379.0)
+  Created path with 33 points
+Creating path 1 with click at (351.0, 275.0)
+  Added first point 1: (351.0, 275.0)
+  Added point 2: (351.0, 275.0)
+  Added point 3: (351.0, 275.0)
+  Added point 4: (351.0, 275.0)
+  Added point 5: (351.0, 276.0)
+  Added point 6: (351.0, 279.0)
+  Added point 7: (351.0, 280.0)
+  Added point 8: (351.0, 282.0)
+  Added point 9: (351.0, 286.0)
+  Added point 10: (351.0, 292.0)
+  Added point 11: (351.0, 300.0)
+  Added point 12: (351.0, 312.0)
+  Added point 13: (351.0, 326.0)
+  Added point 14: (351.0, 340.0)
+  Added point 15: (351.0, 351.0)
+  Added point 16: (351.0, 361.0)
+  Added point 17: (351.0, 369.0)
+  Added point 18: (351.0, 375.0)
+  Added point 19: (351.0, 382.0)
+  Added point 20: (351.0, 390.0)
+  Added point 21: (351.0, 395.0)
+  Added point 22: (351.0, 402.0)
+  Added point 23: (351.0, 405.0)
+  Added point 24: (351.0, 409.0)
+  Added point 25: (351.0, 410.0)
+  Added point 26: (351.0, 410.0)
+  Added point 27: (351.0, 410.0)
+  Added point 28: (349.0, 409.0)
+  Created path with 28 points
+Total paths reconstructed: 2
 === END LOADING PATH DATA DEBUG ===
 

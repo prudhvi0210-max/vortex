@@ -1,0 +1,36 @@
+{
+    "name": "entanglement",
+    "id": "entanglement",
+    "author": "Prudhvi and priya",
+    "version": "1.0.0",
+    "description": "Splits the stroke path into subpaths at each click, computes an (phi, theta) pair from the selected region’s HLS statistics, entangles those angles using a quantum circuit, then shifts hue/lightness of each selected region according to the entangled angle offsets.",
+    "dependencies": {
+        "numpy": ">=1.24.0",
+        "qiskit": ">=1.0.0",
+        "scipy": ">=1.10.0"
+    },
+    "user_input": {
+        "Radius": {
+            "type": "int",
+            "min": 0,
+            "max": 100,
+            "default": 20
+        },
+        "Strength": {
+            "type": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "default": 0.7
+        }
+    
+
+    },
+    "stroke_input": {
+        "image_rgba": "array",
+        "path": "array",
+        "clicks": "array"
+    },
+    "flags": {
+        "smooth_path": true
+    }
+}
